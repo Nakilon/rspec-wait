@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
     "source_code_uri" => "https://github.com/laserlemon/rspec-wait",
   }
 
-  spec.required_ruby_version = ">= 3.0"
+  spec.required_ruby_version = ">= 2.6"
   spec.add_dependency "rspec", ">= 3.4"
   spec.add_development_dependency "bundler", ">= 2.0"
   spec.add_development_dependency "rake", ">= 13.0"
