@@ -2,8 +2,8 @@
 
 RSpec.describe "wait_for" do
   include_examples "wait_for" do
-    def target(...)
-      wait_for(...)
+    def target *args, &block
+      wait_for *args, &block
     end
   end
 end
